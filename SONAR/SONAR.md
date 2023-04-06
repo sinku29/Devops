@@ -8,7 +8,7 @@ sudo amazon-linux-extras install epel -y
  sudo amazon-linux-extras install java-openjdk11 -y
  ```
  3.
- sudo -i
+ sudo -i\
  cd /opt
  4.
  ```
@@ -57,7 +57,7 @@ sudo amazon-linux-extras install epel -y
  ./sonar.sh status
  ```
  16.
- cd /opt
+ cd /opt\
  17.
  ```
  wget https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-4.2.0.1873-linux.zip
@@ -75,7 +75,7 @@ sudo amazon-linux-extras install epel -y
  vi /opt/sonar-scanner/conf/sonar-scanner.properties
  ```
  21.
- sonar.host.url=http://localhost:9000
+ sonar.host.url=http://localhost:9000\
  sonar.sourceEncoding=UTF-8
  22.
  ```
