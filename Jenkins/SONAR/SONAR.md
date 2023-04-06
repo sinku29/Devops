@@ -27,7 +27,7 @@ sudo amazon-linux-extras install epel -y
  useradd sonar
  ```
  8.
- visudo
+ visudo\
  9.
  ```
  sonar ALL=(ALL)     NOPASSWD:ALL
