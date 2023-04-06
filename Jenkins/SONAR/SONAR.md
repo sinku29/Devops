@@ -1,3 +1,5 @@
  1.
-```sudo amazon-linux-extras install epel -y 
+```
+sudo amazon-linux-extras install epel -y
+
 ```
