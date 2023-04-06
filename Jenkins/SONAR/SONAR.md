@@ -99,9 +99,9 @@ PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/us
 ```
 sonar-scanner -v
 ```
-27.OUTPUT SHOULD BE
-INFO: Scanner configuration file: /opt/sonar-scanner/conf/sonar-scanner.properties
-INFO: Project root configuration file: NONE
-INFO: SonarQube Scanner 4.2.0.1873
-INFO: Java 11.0.3 AdoptOpenJDK (64-bit)
+27.OUTPUT SHOULD BE \
+INFO: Scanner configuration file: /opt/sonar-scanner/conf/sonar-scanner.properties\
+INFO: Project root configuration file: NONE\
+INFO: SonarQube Scanner 4.2.0.1873\
+INFO: Java 11.0.3 AdoptOpenJDK (64-bit)\
 INFO: Linux 5.3.0-18-generic amd64
