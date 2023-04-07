@@ -76,7 +76,8 @@ sudo amazon-linux-extras install epel -y
  ```
  21.
  sonar.host.url=http://localhost:9000 \
- sonar.sourceEncoding=UTF-8
+ sonar.sourceEncoding=UTF-8 \
+ 
  22.
  ```
  vi /etc/profile.d/sonar-scanner.sh
