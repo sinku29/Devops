@@ -27,15 +27,15 @@ which s3fs
 6.
 Create role s3full and attach to ec2 \
 create vi /root/.passwd-s3fs \
-accesskey:secretkey /
-set 600 file permission
+accesskey:secretkey \
+set 600 file permission \
 7.
 ```
 mkdir /root/mys3dir
 ```
 8.
 ```
-s3fs mubucket /mys3dir -o passwd_file=/root/.passwd-s3fs```
+s3fs mubucket /mys3dir -o passwd_file=/root/.passwd-s3fs
 9.
 df -Th
 
